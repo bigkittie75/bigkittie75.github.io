@@ -11,7 +11,7 @@ body {
 
 .header {
   font-family: Garamond, sans-serif;
-  font-size: 1rem;
+  font-size: 0.90rem;
   text-align: center;
 	color: black;
 	background-color: #FFF;
@@ -39,7 +39,7 @@ body {
 }
 
 .mlink {
-  font-size: .75rem;
+  font-size: 0.75rem;
 	text-align: left;
   padding: 0% 10%;
   color: black;
