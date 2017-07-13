@@ -1,4 +1,12 @@
 
+body {
+	background-image: url(https://bigkittie75.github.io/images/indeximg.jpeg?raw=true);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
 .header {
 	border: 0px;
 	border-radius: 10px;
@@ -40,9 +48,4 @@
 	font-family: Garamond, sans-serif;
 	text-align: center;
 	color: white;
-	background-image: url(https://bigkittie75.github.io/images/indeximg.jpeg?raw=true);
-  background-size: cover;
-	width: 100%;
-	height: 100%;
-	overflow: visible;
 }
