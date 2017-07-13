@@ -11,7 +11,6 @@ body {
 
 .header {
   font-family: Garamond, sans-serif;
-  font-size: 0.90rem;
   text-align: center;
 	color: black;
 	background-color: #FFF;
@@ -21,6 +20,10 @@ body {
   padding-bottom: 10px;
 	margin: -10px 0px 0px -10px;
   position: fixed;
+}
+
+.header h1 {
+	font-size: 0.90rem;
 }
 
 .header a:link {
