@@ -18,7 +18,7 @@
 }
 
 .indeximg {
-	background-image: url(/images/indeximg.jpeg);
+	background-image: image(/images/indeximg.jpeg);
   background-size: cover;
   width: 100%;
   height: 100%;
