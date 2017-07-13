@@ -24,4 +24,5 @@
 	background-image: image(/images/indeximg.jpeg);
   background-size: cover;
 	width: 100%;
+	overflow: visible;
 }
