@@ -10,6 +10,7 @@
   height: 100%;
   width: 25%;
   position: fixed;
+	padding-bottom: 50px;
 }
 
 .mlink {
@@ -27,6 +28,6 @@
 	background-image: image(/images/indeximg.jpeg);
   background-size: cover;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	overflow: visible;
 }
