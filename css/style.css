@@ -18,6 +18,9 @@
 }
 
 .indeximg {
+	font-family: Garamond, sans-serif;
+	text-align: center;
+	color: white;
 	background-image: image(/images/indeximg.jpeg);
   background-size: cover;
   width: 100%;
