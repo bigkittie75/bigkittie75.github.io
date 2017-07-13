@@ -9,7 +9,7 @@ header {
 }
 
 .indeximg {
-	background-image: image(images\indeximg.jpeg);
+	background-image: image(images/indeximg.jpeg);
 	position: relative;
 	bottom: 400px
 }
