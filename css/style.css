@@ -1,9 +1,15 @@
 header {
 	font-family: Garamond, sans-serif;
 	color: white;
-	background-color: Black;
+	background-color: #A9A9A9;
 }
 
 .title {
 	display: inline-block;
+}
+
+.indeximg {
+	background-image: image(images\indeximg.jpeg);
+	position: relative;
+	bottom: 400px
 }
