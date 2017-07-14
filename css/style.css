@@ -23,7 +23,7 @@ body .home {
 }
 
 .header h1 {
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 }
 
 .header a:link {
@@ -42,7 +42,7 @@ body .home {
 }
 
 .mlink {
-  font-size: 1rem;
+  font-size: 1.25rem;
 	text-align: left;
   padding: 0% 10%;
   color: black;
