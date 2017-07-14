@@ -1,5 +1,4 @@
-
-#home body {
+body.home {
 	background-image: url(https://bigkittie75.github.io/images/indeximg.jpeg?raw=true);
 	background-repeat: no-repeat;
 	background-size: cover;
