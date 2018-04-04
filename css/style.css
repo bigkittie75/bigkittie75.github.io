@@ -63,7 +63,7 @@ body.home {
 .worktable {
   position: absolute;
   right: 0px;
-  top: 10%;
+  bottom: 30%;
   height: 100%;
   width: 80%;
   padding: 15px;
