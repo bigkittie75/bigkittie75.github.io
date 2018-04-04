@@ -53,7 +53,10 @@ body.home {
   right: 0px;
   height: 100%;
   width: 80%;
+  padding-top: 20px;
   text-align: center;
+  font-size: 1.25rem;
+  font-family: Garamond, sans-serif;
 
 }
 
