@@ -11,7 +11,7 @@ body.home {
   text-align: left;
 	color: black;
 	background-color: #FFF;
-	background-size: static;
+	/*background-size: static;*/
 	height: 100%;
   width: 20%;
 	padding-left: 15px;
@@ -49,7 +49,7 @@ body.home {
 }
 
 .main {
-  position:absolute;
+  position: absolute;
   right: 0px;
   height: 100%;
   width: 80%;
@@ -61,6 +61,7 @@ body.home {
 }
 
 .worktable {
+  position:absolute;
   height: 100%;
   width: 80%;
   position: fixed;
