@@ -49,9 +49,12 @@ body.home {
 }
 
 .main {
+  position:absolute;
+  right: 0px;
   height: 100%;
   width: 80%;
-  margin-right: auto;
+  text-align: center;
+
 }
 
 .worktable {
