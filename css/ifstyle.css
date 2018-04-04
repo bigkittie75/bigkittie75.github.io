@@ -1,6 +1,5 @@
 .container {
-   background-image: url(https://bigkittie75.github.io/images/indeximg.jpeg?raw=true);
-	 background-repeat: no-repeat;
+   content: url(https://bigkittie75.github.io/images/indeximg.jpeg?raw=true);
    width: 100%;
    max-width: 1280px;
    min-width: 320px;
