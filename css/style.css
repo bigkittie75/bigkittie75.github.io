@@ -47,3 +47,12 @@ body.home {
   color: black;
 
 }
+
+.worktable {
+  height: 100%;
+  width: 80%;
+  padding: 15px;
+  border-spacing: 10px;
+  border-style: none;
+
+}
