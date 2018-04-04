@@ -6,7 +6,7 @@ body.home {
 	font-size: 16px*/
 }
 
-.leftFrame {
+.header {
   font-family: Garamond, sans-serif;
   text-align: left;
 	color: black;
@@ -20,22 +20,22 @@ body.home {
   position: fixed;
 }
 
-.leftFrame h1 {
+.header h1 {
 	font-size: 1.5rem;
 }
 
 /*Menu Links*/
-.leftFrame a:link {
+.header a:link {
   color: black;
   text-decoration: none;
   }
 
-.leftFrame a:visited {
+.header a:visited {
   color: black;
   text-decoration: none;
 }
 
-.leftFrame a:hover {
+.header a:hover {
   color: #D3D3D3;
   text-decoration: none;
 }
