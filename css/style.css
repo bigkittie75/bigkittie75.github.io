@@ -61,7 +61,7 @@ body.home {
 }
 
 .worktable {
-  position: fixed;
+  position: absolute;
   right: 0px;
   height: 100%;
   width: 80%;
