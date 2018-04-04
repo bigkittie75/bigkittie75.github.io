@@ -54,6 +54,7 @@ body.home {
   position: absolute;
   float: right;
   text-align: right;
+  margin-right: auto; 
 }
 
 .worktable {
