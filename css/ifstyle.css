@@ -1,17 +1,9 @@
 .container {
+   background-image: url(https://bigkittie75.github.io/images/indeximg.jpeg?raw=true);
+	 background-repeat: no-repeat;
    width: 100%;
    max-width: 1280px;
    min-width: 320px;
    margin: 0 auto;
    clear: both;
  }
-
-.col-3 {
-  float: left;
-  width: 30.8%;
-  margin-right: 3.8%;
-}
-
-.last {
-  margin-right: 0;
-}
