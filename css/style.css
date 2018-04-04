@@ -60,12 +60,12 @@ body.home {
 
 }
 
-.worktable th, td {
+.worktable {
   position: fixed;
+  right: 0px;
   height: 100%;
   width: 80%;
-  position: fixed;
-  float: right;
+  padding-top: 20px;
   padding: 15px;
   border-style: none;
 
