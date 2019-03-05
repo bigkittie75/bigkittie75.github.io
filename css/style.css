@@ -10,7 +10,8 @@ body.home {
   font-family: Garamond, sans-serif;
   text-align: left;
 	color: black;
-	background-color: #FFF;
+	background: transparent;
+  pointer-events: none;
 	background-size: static;
 	height: 100%;
   width: 20%;
