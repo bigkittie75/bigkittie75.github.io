@@ -87,7 +87,7 @@ function update(source) {
   var nodeEnter = node.enter().append("g")
 	  .attr("class", "node")
 	  .attr("transform", function(d) {
-		  return "translate(" + source.y + "," + source.x + ")"; })
+		  return "translate(" + d.y0 + "," + d.x0 + ")"; })
     .on("click", click);
 
   nodeEnter.append("circle")
