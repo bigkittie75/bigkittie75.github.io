@@ -106,7 +106,7 @@ function update(source) {
     // Transition nodes to their new position.
     var nodeUpdate = node.transition()
   	  .duration(duration)
-  	  .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+  	  .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; });
 
     nodeUpdate.select("circle")
   	  .attr("r", 10)
