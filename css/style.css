@@ -7,11 +7,12 @@ body.home {
 }
 
 .header {
+  /*background: transparent;
+  pointer-events: none;*/
   font-family: Garamond, sans-serif;
   text-align: left;
 	color: black;
-	background: transparent;
-  pointer-events: none;
+	background-color: #FFF;
 	background-size: static;
 	height: 100%;
   width: 20%;
