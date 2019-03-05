@@ -2,6 +2,10 @@ name,parent
 Occasion,null
 Holidays,Occasion
 National Holidays,Holidays
+Winter Holidays,Holidays
+Unofficial Holidays,Holidays
+Religious Holidays,Holidays
+Other Holidays,Holidays
 Independence Days,National Holidays
 Finnish Independece Days,Independence Days
 Kenyan Independence Day,Independence Days
@@ -9,21 +13,17 @@ Yom Ha'atzmaut,Independence Days
 Waitangi Day,Independence Days
 Other Independence Days,Independence Days
 Other National Holidays,National Holidays
-Winter Holidays,Holidays
 Thanksgiving,Winter Holidays
 Holidays,Winter Holidays
 New Year's Eve,Winter Holidays
 New Year's Day,Winter Holidays
 Other Winter Holidays,Winter Holidays
-Unofficial Holidays,Holidays
 April Fool's Day,Unofficial Holidays
 Teacher's Day,Unofficial Holidays
 Other Unofficial Holidays,Unofficial Holidays
-Religious Holidays,Holidays
 Christian Holidays,Religious Holidays
 Jewish Holidays,Religious Holidays
 Other Religious Holidays,Religious Holidays
-Other Holidays,Holidays
 Solstices,Occasion
 Winter Solstice,Solstices
 Winter Solstice Observed (Northern Hemisphere),Winter Solstice
