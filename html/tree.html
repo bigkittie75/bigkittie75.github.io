@@ -87,7 +87,7 @@ function update(source) {
   var nodeEnter = node.enter().append("g")
 	  .attr("class", "node")
 	  .attr("transform", function(d) {
-		  return "translate(" + source.y0 + "," + source.x0 + ")"; })
+		  return "translate(" + source.y + "," + source.x + ")"; })
     .on("click", click);
 
   nodeEnter.append("circle")
@@ -106,7 +106,7 @@ function update(source) {
     // Transition nodes to their new position.
     var nodeUpdate = node.transition()
   	  .duration(duration)
-  	  .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; });
+  	  .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
     nodeUpdate.select("circle")
   	  .attr("r", 10)
