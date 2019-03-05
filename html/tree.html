@@ -91,7 +91,7 @@ function update(source) {
     .on("click", click);
 
   nodeEnter.append("circle")
-	  .attr("r", 10)
+	  .attr("r", 1e-6)
 	  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
   nodeEnter.append("text")
@@ -101,7 +101,7 @@ function update(source) {
 	  .attr("text-anchor", function(d) {
 		  return d.children || d._children ? "end" : "start"; })
 	  .text(function(d) { return d.name; })
-	  .style("fill-opacity", 1);
+	  .style("fill-opacity", 1e-6);
 
     // Transition nodes to their new position.
     var nodeUpdate = node.transition()
@@ -109,11 +109,11 @@ function update(source) {
   	  .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
     nodeUpdate.select("circle")
-  	  .attr("r", 10)
+  	  .attr("r", 1e-6)
   	  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
     nodeUpdate.select("text")
-  	  .style("fill-opacity", 1);
+  	  .style("fill-opacity", 1e-6);
 
     // Transition exiting nodes to the parent's new position.
     var nodeExit = node.exit().transition()
@@ -122,10 +122,10 @@ function update(source) {
   	  .remove();
 
     nodeExit.select("circle")
-  	  .attr("r", 10);
+  	  .attr("r", 1e-6);
 
     nodeExit.select("text")
-  	  .style("fill-opacity", 1);
+  	  .style("fill-opacity", 1e-6);
 
   // Declare the linksâ€¦
   var link = svg.selectAll("path.link")
