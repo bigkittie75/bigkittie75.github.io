@@ -1,6 +1,20 @@
 name,parent
-Level 2: A,Top Level
-Top Level,null
-Son of A,Level 2: A
-Daughter of A,Level 2: A
-Level 2: B,Top Level
+Occasion,null
+Holidays,Occasion
+National Holidays,Holidays
+Independence Days,National Holidays
+Finnish Independece Days,Independence Days
+Kenyan Independence Day,Independence Days
+Yom Ha'atzmaut,Independence Days
+Waitangi Day,Independence Days
+Other Independence Days,Independence Days
+Other National Holidays,National Holidays
+Winter Holidays,Holidays
+Unofficial Holidays,Holidays
+Religious Holidays,Holidays
+Other Holidays,Holidays
+Solstices,Occasion
+Anniversaries,Occasion
+Birthday Celebrations,Occasion
+Celebrations of Life,Occasion
+Political Events,Occasion
