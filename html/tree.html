@@ -91,7 +91,7 @@ function update(source) {
     .on("click", click);
 
   nodeEnter.append("circle")
-	  .attr("r", 1e-6)
+	  .attr("r", 10)
 	  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
   nodeEnter.append("text")
@@ -101,7 +101,7 @@ function update(source) {
 	  .attr("text-anchor", function(d) {
 		  return d.children || d._children ? "end" : "start"; })
 	  .text(function(d) { return d.name; })
-	  .style("fill-opacity", 1e-6);
+	  .style("fill-opacity", 1);
 
     // Transition nodes to their new position.
     var nodeUpdate = node.transition()
