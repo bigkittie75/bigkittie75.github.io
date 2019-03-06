@@ -6,21 +6,23 @@ Winter Holidays,Holidays
 Unofficial Holidays,Holidays
 Religious Holidays,Holidays
 Other Holidays,Holidays
-Independence Days,National Holidays
-Finnish Independece Days,Independence Days
-Kenyan Independence Day,Independence Days
-Yom Ha'atzmaut,Independence Days
-Waitangi Day,Independence Days
-Other Independence Days,Independence Days
-Other National Holidays,National Holidays
-Thanksgiving,Winter Holidays
-Holidays,Winter Holidays
-New Year's Eve,Winter Holidays
-New Year's Day,Winter Holidays
-Other Winter Holidays,Winter Holidays
-April Fool's Day,Unofficial Holidays
-Teacher's Day,Unofficial Holidays
-Other Unofficial Holidays,Unofficial Holidays
-Christian Holidays,Religious Holidays
-Jewish Holidays,Religious Holidays
-Other Religious Holidays,Religious Holidays
+Solstices,Occasion
+Winter Solstice,Solstices
+Winter Solstice Observed (Northern Hemisphere),Winter Solstice
+Winter Solstice Observed (Southern Hemisphere),Winter Solstice
+Summer Solstice,Solstices
+Summer Solstice Observed (Northern Hemisphere),Summer Solstice
+Summer Solstice Observed (Southern Hemisphere),Summer Solstice
+Anniversaries,Occasion
+Dedication Anniversaries,Anniversaries
+Architecture Dedications,Dedication Anniversaries
+Other Dedications,Dedication Anniversaries
+Book Anniversaries,Anniversaries
+Comic Book Anniversaries,Book Anniversaries
+Comic Book Publishing,Comic Book Anniversaries
+Other Comic Book Anniversaries,Comic Book Anniversaries
+Other Book Anniversaries,Book Anniversaries
+Other Anniversaries,Anniversaries
+Birthday Celebrations,Occasion
+Celebrations of Life,Occasion
+Political Events,Occasion
