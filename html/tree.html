@@ -40,7 +40,8 @@ var svg = d3.select("body").append("svg")
 	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // load the external data
-d3.csv("/data/treedata.csv", function(error, data) {
+d3.csv("treeCsv.csv", function(error, flatData) {
+  if (error) throw error;
 
 // *********** Convert flat data into a nice tree ***************
 // create a name: node map
