@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+  <title>Scopus API</title>
+</head>
+<body>
+  <form>
+    <input type="text" placeholder="Enter DOIs separated by commas" />
+    <input type="text" placeholder="Enter your API key" />
+    <input type="submit" value="Download BibTeX Files" />
+  </form>
+  <script>
+    // Set up the parameters for the query
+    const headers = {
+      Accept: "application/x-bibtex"
+    };
+    const params = new URLSearchParams({
+      view: "BIBTEX"
+    });
+
+    // Handle the form submission
+    form.addEventListener("submit", event => {
+      // Prevent the default form submission behavior
+      event.preventDefault();
+
+      // Get the list of DOIs and API key from the form
+      const dois = input.value.split(",").map(doi => doi.trim());
+      const apiKey = key.value;
+      headers["X-ELS-APIKey"] = apiKey;
+
+      // Iterate over the list of DOIs and query the API for each one
+      dois.forEach(doi => {
+        // Set the DOI as the identifier in the query URL
+        const queryUrl = `/content/article/doi/${doi}`;
+
+        // Send the GET request to the API
+        fetch(queryUrl, { headers, params })
+          .then(res => {
+            // Check the response status
+            if (res.ok) {
+              // If the request was successful, return the BibTeX data from the response
+              return res.text();
+            } else {
+              // If the request was not successful, throw an error
+              throw new Error(`Failed to retrieve BibTeX for ${doi}: ${res.statusText}`);
+            }
+          })
+          .then(bibtex => {
+            // Create a new Blob with the BibTeX data
+            const blob = new Blob([bibtex], { type: "application/x-bibtex" });
+
+            // Create a link element to download the BibTeX file
+            const link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = `${doi}.bib`;
+
+            // Append the link to the document and click it to initiate the download
+            document.body.append(link);
+            link.click();
+
+            // Remove the link from the document
+            link.remove();
+          })
+          .catch(err => {
+            // Print any error messages
+            console.error(err.message);
+          });
+      });
+    });
+  </script>
+</body>
+</html>
