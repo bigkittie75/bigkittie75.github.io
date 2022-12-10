@@ -4,12 +4,17 @@
   <title>Scopus API</title>
 </head>
 <body>
-  <form>
-    <input type="text" placeholder="Enter DOIs separated by commas" />
-    <input type="text" placeholder="Enter your API key" />
-    <input type="submit" value="Download BibTeX Files" />
+  <form id="form">
+    <input id="input" type="text" placeholder="Enter DOIs separated by commas" />
+    <input  id="key" type="text" placeholder="Enter your API key" />
+    <input id="submit" type="submit" value="Download BibTeX Files" />
   </form>
   <script>
+    // Get the form and input elements on the page
+    const form = document.getElementById("form");
+    const input = document.getElementById("input");
+    const key = document.getElementById("key");
+
     // Set up the parameters for the query
     const headers = {
       Accept: "application/x-bibtex"
@@ -31,7 +36,7 @@
       // Iterate over the list of DOIs and query the API for each one
       dois.forEach(doi => {
         // Set the DOI as the identifier in the query URL
-        const queryUrl = `/content/article/doi/${doi}`;
+        const queryUrl = `https://api.elsevier.com/content/article/doi/${doi}?apiKey=${apiKey}&view=BIBTEX`;
 
         // Send the GET request to the API
         fetch(queryUrl, { headers, params })
